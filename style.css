@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#personal_number {
+    margin-top: 10px;
+}
+form>button {
+    margin-top: 10px;
+    width: 25%;
+}
+.true {
+    color: green;
+}
+
+.false {
+    color: red;
+}
+
+
+
+.traffic_light {
+    background-color: aqua;
+    width: 70px;
+    height: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.light {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
