@@ -32,9 +32,12 @@ let stop = document.querySelector('.stop')
 let getReady = document.querySelector('.get_ready')
 let go = document.querySelector('.go')
 
-setInterval(turnOnRed,1000);
-setInterval(tunrOffRed,7000);
-
+    setInterval(turnOnRed,1000);
+    setInterval(tunrOffRed,7000);
+    setInterval(turnOnYellow,6000);
+    setInterval(turnOffYellow,7000);
+    setInterval(turnOnGreen, 7000);
+    setInterval(turnOffGreen, 12000);
 
 
 
