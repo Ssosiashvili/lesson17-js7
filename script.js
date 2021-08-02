@@ -33,7 +33,11 @@ let stop = document.querySelector('.stop')
 let getReady = document.querySelector('.get_ready')
 let go = document.querySelector('.go')
 
-setInterval(trafficlight, 12000);
+
+document.addEventListener("DOMContentLoaded", function() {
+    trafficlight ();
+    setInterval(trafficlight, 12000);
+  });
 
 function trafficlight () {
     setTimeout(turnOnRed,1000);
@@ -43,7 +47,6 @@ function trafficlight () {
     setTimeout(turnOnGreen, 7000);
     setTimeout(turnOffGreen, 12000);
 }
-
 
 function turnOnRed() {
     stop.classList.add('red')
