@@ -28,17 +28,21 @@ function tryCatchChek () {
 
 
 
+
 let stop = document.querySelector('.stop')
 let getReady = document.querySelector('.get_ready')
 let go = document.querySelector('.go')
 
-    setInterval(turnOnRed,1000);
-    setInterval(tunrOffRed,7000);
-    setInterval(turnOnYellow,6000);
-    setInterval(turnOffYellow,7000);
-    setInterval(turnOnGreen, 7000);
-    setInterval(turnOffGreen, 12000);
+setInterval(trafficlight, 12000);
 
+function trafficlight () {
+    setTimeout(turnOnRed,1000);
+    setTimeout(tunrOffRed,7000);
+    setTimeout(turnOnYellow,6000);
+    setTimeout(turnOffYellow,7000);
+    setTimeout(turnOnGreen, 7000);
+    setTimeout(turnOffGreen, 12000);
+}
 
 
 function turnOnRed() {

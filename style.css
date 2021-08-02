@@ -25,11 +25,14 @@ form>button {
 
 
 .traffic_light {
-    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: black;
     width: 70px;
     height: 210px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 12px;
 } 
 
 .light {
